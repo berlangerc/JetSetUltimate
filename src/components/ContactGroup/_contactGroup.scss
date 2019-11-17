@@ -1,0 +1,22 @@
+.contact-group-container {
+    margin-bottom: 10px;
+    min-height: 352px;
+
+    .contact-card {
+        height: 100%;
+
+        .contact-img {
+            text-align: center;
+            min-height: 190px;
+
+            img {
+                width: 70%;
+                max-width: 200px;
+            }
+        }
+
+        .contact-text {
+            font-size: 14px;
+        }
+    }
+}

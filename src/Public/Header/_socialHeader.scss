@@ -1,0 +1,46 @@
+/************************ SOCIAL BANNER **********************/
+.top-navigation-right {
+    position: absolute;
+    margin-right: 30px;
+    right: 30px;
+    top: 20px;
+}
+
+.top-navigation-right {
+    display: none;
+}
+
+.top-social-wrapper {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.top-social-wrapper .social-icon:first-child {
+    margin-left: 0px;
+}
+
+.top-social-wrapper .social-icon {
+    float: left;
+    margin-left: 16px;
+    max-width: 22px;
+}
+
+.social-icon a {
+    text-decoration: none;
+}
+
+.social-icon-link {
+    text-decoration: none;
+    color: black;
+}
+
+.social-icon-link:hover {
+    border: black;
+    color: red;
+}
+
+@media screen and (min-width: 768px) {
+    .top-navigation-right, .address-bar {
+        display: inherit;
+    }
+}

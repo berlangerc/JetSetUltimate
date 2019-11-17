@@ -1,0 +1,12 @@
+.tournamentOverview {
+    button {
+        margin-right: 3px;
+    }
+
+    button:last-child {
+        margin-right: 0px;
+    }
+}
+
+@import "./TournamentOverview/tournamentTileList";
+@import "./AddTournament/Options/optionManagement";

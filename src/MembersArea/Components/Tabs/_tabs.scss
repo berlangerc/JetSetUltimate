@@ -1,0 +1,29 @@
+.tabs {
+    display: flex;
+    margin-bottom: 15px;
+
+    .tab {
+        padding: 0 10px;
+        flex-grow: 1;
+        text-align: center;
+        cursor: pointer;
+        padding: 5px;
+
+        a {
+            transition: all 0.3s ease-in-out;
+            text-decoration: none;
+            color: $js-orange;
+            font-weight: bold;
+
+            &.active {
+                .bar {
+                    margin: 7px auto 0px;
+                    width: 50%;
+                    transition: background-color 0.3s ease-in-out;
+                    height: 4px;
+                    background-color: $js-orange;
+                }
+            }
+        }
+    }
+}

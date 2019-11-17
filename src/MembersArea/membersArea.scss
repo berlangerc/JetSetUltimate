@@ -1,0 +1,45 @@
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+    background-color: #9f0000;
+}
+
+.memberzone {
+    $sidebar-width-collapsed: 70px;
+    $sidebar-width-open: 240px;
+
+    @import "./SCSS/_variables.scss";
+    @import "./SCSS/utilities";
+    @import "../components/components";
+    @import "./Components/components";
+
+    @import "./Header/_header.scss";
+    @import "./SideBar/_sideBar.scss";
+    @import "./Content/_content.scss";
+    @import "./Login/login";
+    @import "./TournamentManagement/tournamentManagement";
+    @import "./MyFinance/myFinance";
+    @import "./Tournaments/tournaments";
+
+    button:focus {
+        outline: none;
+    }
+
+    .page-body-wrapper {
+        &.fixed {
+            padding-top: 58px;
+
+            @media screen and (min-width: $view-sm) {
+                padding-top: 85px;
+            }
+        }
+
+        &.icon-only {
+            padding-top: 58px;
+        }
+    }
+
+    &.container-scroller {
+        overflow: hidden;
+    }
+}

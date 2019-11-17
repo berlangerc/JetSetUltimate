@@ -1,0 +1,51 @@
+.js-button {
+    display: inline-block;
+    padding: 0.7em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    border-radius: 0.12em;
+    text-decoration: none;
+    font-weight: 300;
+    background-color: #ff5431;
+    color: white;
+    text-align: center;
+    transition: all 0.2s;
+    width: 100%;
+    max-width: 200px;
+    cursor: pointer;
+
+    &:hover:not(:disabled){
+        color: #000000;
+        background-color: #FFFFFF;
+        border-color: #ff5431;
+    }
+
+    &:disabled {
+        background-color: #ffb1a1;
+    }
+
+    /** COLORS **/
+
+    &.neutral{
+        background-color: #8c8c8c;
+        color: white;
+
+        &:hover:not(:disabled){
+            color: #000000;
+            background-color: #d1d1d1;
+            border-color: #ff5431;
+        }
+    
+        &:disabled {
+            background-color: #ffb1a1;
+        }
+    }
+
+
+}
+
+// @media all and (max-width:30em){
+//  a.button1{
+//   display:block;
+//   margin:0.4em auto;
+//  }
+// }

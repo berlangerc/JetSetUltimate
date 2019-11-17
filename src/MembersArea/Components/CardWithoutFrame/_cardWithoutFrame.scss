@@ -1,0 +1,28 @@
+.cardWithoutFrame {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1em;
+
+    .logo-header {
+        text-align: center;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        margin-bottom: 10px;
+
+        @include media-breakpoint-up(sm) {
+            margin-bottom: 15px;
+        }
+
+
+        @include media-breakpoint-up(md) {
+            margin-bottom: 25px;
+        }
+    }
+    h1{
+        text-align: center;
+    }
+}

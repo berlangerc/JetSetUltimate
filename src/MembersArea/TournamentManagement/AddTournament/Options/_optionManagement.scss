@@ -1,0 +1,93 @@
+.tournament-options {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.tournament-options>.options {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.tournament-options>.options>.option {
+    margin: 0 0 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-style: solid;
+    border-color: #E9E9E9;
+    border-radius: 10px;
+    background: #E9E9E9;
+    padding: 10px;
+    border-width: 1px;
+}
+
+.tournament-options>.options>.option>.content {
+    width: 70%;
+    overflow-wrap: break-word;
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.tournament-options>.options>.option>.content>textarea {
+    height: 100%;
+    width: 100%;
+    resize: none;
+    overflow: auto;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px;
+    font-size: 1em;
+    transition: border 0.5s;
+    -webkit-transition: border 0.5s;
+    -moz-transition: border 0.5s;
+    -o-transition: border 0.5s;
+    border: solid 3px #CEC1C1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tournament-options>.options>.option>.price {
+    width: 20%;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tournament-options>.options>.option>.configure {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tournament-options>.options>.option>.configure i {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.tournament-options>.options>.option>.configure i.disabled {
+    cursor: not-allowed;
+    color: grey;
+}
+
+.tournament-options>.options>.option>.configure i:not(.disabled):hover {
+    font-size: 22px;
+}
+
+@media screen and (max-width: 480px) {
+    .tournament-options>.options>.option>.content {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tournament-options>.options>.option>.configure {
+        width: 10%;
+        flex-direction: column;
+        justify-content: unset;
+    }
+}

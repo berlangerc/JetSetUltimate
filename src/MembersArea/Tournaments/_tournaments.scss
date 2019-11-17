@@ -1,0 +1,7 @@
+.tournaments {
+    @import "./TournamentsOverview/tournamentsOverview";
+    @import "./UnsubscribeForTournament/unsubscribeForTournament";
+    @import "./TournamentOptionSelector/tournamentOptionSelector";
+    @import "./TournamentInfo/tournamentInfo";
+    @import "./SubscribeForTournament/subscribeForTournament";
+}

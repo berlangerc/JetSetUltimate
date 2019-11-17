@@ -1,0 +1,23 @@
+/* #trainingstabel {
+	border-collapse:collapse;
+	border-spacing:0;
+} */
+
+.normal {
+    font-size: large;
+}
+
+#trainingstabel td, #trainingstabel th {
+    padding: 0px 3px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    text-align: center;
+    width: 4%;
+}
+
+#trainingstabel th {
+    background-color: #000000;
+    color: #ffffff;
+}

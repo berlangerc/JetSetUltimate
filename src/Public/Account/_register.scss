@@ -1,0 +1,93 @@
+.control-label {
+    clear: both;
+    display: block;
+}
+
+.normal {
+    font-size: large;
+}
+
+input.form-control {
+    display: block;
+    clear: both;
+}
+
+form {
+    max-width: 70%;
+}
+
+label {
+    padding: 0px;
+    display: block;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+input, select {
+    border: 1px solid #BEBEBE;
+    padding: 3px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+input:focus, input.focus {
+    border: solid 1px #707070;
+}
+
+.form-field {
+    margin-bottom: 3px;
+}
+
+#register-button {
+    margin-top: 20px;
+    width: 100%;
+}
+
+#tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tg td {
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+}
+
+#tg th {
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+}
+
+#tg-s6z2 {
+    text-align: center;
+}
+
+#tg-bgyt {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    width: 13%;
+}
+
+#tg-bgyr {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    width: 9%;
+}
+
+#tg-yw4l {
+    vertical-align: top;
+}

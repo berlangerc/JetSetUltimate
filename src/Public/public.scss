@@ -1,0 +1,21 @@
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+.public {
+    @import "../components/components";
+    @import "../jetset.css";
+    @import "./Home/home";
+    @import "./Account/register";
+    @import "./Header/socialHeader";
+
+    @import "./Static/club";
+    @import "./Static/contact";
+    @import "./Static/ploegen";
+    @import "./Static/trainingsschema";
+    @import "./Static/agenda";
+
+    @import "./Header/header";
+    @import "./Articles/article";
+
+    background-color: white;
+}

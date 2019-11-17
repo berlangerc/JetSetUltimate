@@ -1,0 +1,20 @@
+header {
+    @mixin configureTransition {
+        transition: width 0.25s ease, background 0.25s ease;
+        -webkit-transition: width 0.25s ease, background 0.25s ease;
+        -moz-transition: width 0.25s ease, background 0.25s ease;
+        -ms-transition: width 0.25s ease, background 0.25s ease;
+    }
+
+    max-height: 100px;
+    z-index: 1030;
+    background: #ffffff;
+
+    /** Brand **/
+    @import "./Brand/_brand.scss";
+
+    /** NavRight **/
+    @import "./RightNav/_rightNav.scss";
+
+    @import "./Logout/logout";
+}
